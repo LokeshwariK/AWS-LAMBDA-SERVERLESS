@@ -1,0 +1,6 @@
+com\hubino\config\AmazonSimpleEmailServiceConfig.class
+com\hubino\service\KinesisStreamService.class
+com\hubino\constants\Constants.class
+com\hubino\TriggerDB.class
+com\hubino\service\SimpleEmailService.class
+com\hubino\config\AmazonKinesisConfig.class
