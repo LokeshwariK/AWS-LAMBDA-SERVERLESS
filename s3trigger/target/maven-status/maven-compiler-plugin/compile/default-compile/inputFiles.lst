@@ -1,0 +1,6 @@
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\entity\Person.java
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\config\S3Config.java
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\S3TriggerLambda.java
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\S3UploadFile.java
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\config\DynamoDBConfig.java
+D:\AWS-workspace\s3trigger\src\main\java\com\s3trigger\service\PersonService.java

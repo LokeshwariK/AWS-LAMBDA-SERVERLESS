@@ -1,0 +1,6 @@
+com\s3trigger\service\PersonService.class
+com\s3trigger\config\DynamoDBConfig.class
+com\s3trigger\S3TriggerLambda.class
+com\s3trigger\S3UploadFile.class
+com\s3trigger\config\S3Config.class
+com\s3trigger\entity\Person.class
