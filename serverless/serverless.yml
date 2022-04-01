@@ -1,0 +1,29 @@
+
+app: aws-task
+org: kiranvasanth
+service: webhook
+
+package:
+  artifact: target/serverless.jar
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: java11
+  region: ap-south-1
+
+
+functions:
+  webhook:
+    handler: serverless.Handler
+    events: 
+      - http:
+          path: /webhooks
+          method: post
+  testing:
+    handler: serverless.Test
+    events:
+      - http:
+          path: /testing
+          method: post
